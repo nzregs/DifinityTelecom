@@ -1,10 +1,10 @@
 // Databricks notebook source
 // MAGIC %md
-// MAGIC # Difinity Telecom - Hot Path Processing
+// MAGIC # Difinity Telecom - Basic Stream Processing
 // MAGIC 
-// MAGIC ## Event Hubs >> Azure Databricks >> Power BI
+// MAGIC ## Event Hubs >> Azure Databricks 
 // MAGIC 
-// MAGIC In the hot path, a realtime stream from Azure Event Hubs is enriched and pushed to Power BI using the Streaming Dataset API
+// MAGIC A realtime stream from Azure Event Hubs is enriched and displayed in a Databricks Notebook
 
 // COMMAND ----------
 
@@ -20,7 +20,7 @@
 
 // COMMAND ----------
 
-// imports
+// imports at the top
 import org.apache.spark.eventhubs._
 import org.apache.spark.sql.functions._
 import org.apache.spark.sql._
